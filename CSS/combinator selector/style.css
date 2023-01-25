@@ -1,0 +1,39 @@
+/* descendent tag */
+/*div .para{
+    color:aqua;
+}*/
+
+/*.container #para-1{
+    color:antiquewhite;
+}*/
+
+/* child selector*/
+ /*span > p{
+    color: aqua;
+ }
+ div + p{
+    color: aliceblue;
+ }*/
+
+ /*div ~ p{
+    color: aqua;
+ }*/
+ .btn{
+    background-color: orangered;
+    border: 0px;
+    padding: 10px;
+ }
+ .btn:hover{
+    background-color: aqua;
+    cursor: pointer;
+    color: azure;
+ }
+ .link:active{
+    color: antiquewhite;
+ }
+ a :visited{
+    color: brown;
+ }
+ p::first-line{
+    color: chartreuse;
+ }
