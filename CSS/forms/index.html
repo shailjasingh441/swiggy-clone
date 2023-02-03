@@ -1,29 +1,42 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>New Connection Registration Form</title>
+</head>
     <body>
-        <h1>HTML Form</h1>
+        <h1>New Connection Registration Form</h1>
+        
         <form action="#" method="post">
-            <div>
-            <label for="email">Email Address</label><br>
-             <input type="email" placeholder="type email address here">
+            <div class="form-fields">
+            <div class="title">
+                <label  for="email">Email Address</label>
             </div>
-            <div>
-                <label for="fname">Full Name</label><br>
-                <input type="text" name="fname" placeholder="First Name"\>
-                <input type="text" name="lname" placeholder="Last Name"\>
+             <input class="form-control"   type="email" placeholder="type email address here"  >
+            </div>
+            <div class="form-fields">
+                <div class="title">
+                    <label   for="fname">Full Name</label>
+                </div>
+                <input class="form-control"  type="text" name="fname" placeholder="First Name"\>
+                <input  type="text" name="lname" placeholder="Last Name"\>
 
             </div>
-            <div>
-                <label for="address">Address</label><br>
-                <input type="text" name="street" placeholder="Street Address"\>
-                <input type="text" name="add" placeholder="Office,Suit"\>
+            <div class="form-fields">
+                <div class="title">
+                    <label   for="address">Address</label>
+                </div>
+                <input  type="text" name="street" placeholder="Street Address"\>
+                <input  type="text" name="add" placeholder="Office,Suit"\>
             </div>
-            <div>
-                <label for="city">City</label><br>
-                <input type="text" name="city" >
+            <div class="form-fields">
+                <div class="title">
+                    <label  for="city">City</label>
+                </div>
+                <input  type="text" name="city" >
                 <select name="state" id="state">
                     <option value="haryana">Haryana</option>
                     <option value="delhi">Delhi</option>
@@ -31,34 +44,40 @@
                     <option value="uttarakhand">Uttarakhand</option>
                     <option value="maharashtra">Maharashtra</option>
                 </select>
-                <input type="number" name="zip" placeholder="zip">
+                <input  type="number" name="zip" placeholder="zip">
             </div>
-            <div>
-                <label for="radio">What radio technologies are you using?</label><br>
-                <input type="checkbox" name="net"  value="2G"> 2G
-                <input type="checkbox" name="net2" value="3G" > 3G
-                <input type="checkbox" name="net3" value="4G"> 4G
-                <input type="checkbox" name="net4" value="5G"> 5G
+            <div class="form-fields">
+                <div class="title">
+                    <label  for="radio">What radio technologies are you using?</label>
+                </div>
+                <input  type="checkbox" name="net"  value="2G"> 2G
+                <input  type="checkbox" name="net2" value="3G" > 3G
+                <input  type="checkbox" name="net3" value="4G"> 4G
+                <input  type="checkbox" name="net4" value="5G"> 5G
                 
             </div>
-            <div>
-                <label for="data-use">How much data do you use in a month?</label><br>
-                <input type="radio" name="net"  > 0-50MB
-                <input type="radio" name="net"  > 51-100MB
-                <input type="radio" name="net"  > 101-150MB
-                <input type="radio" name="net"  > 151-200MB
+            <div class="form-fields">
+                <div class="title">
+                    <label  for="data-use">How much data do you use in a month?</label>
+                </div>
+                <input  type="radio" name="net"  > 0-50MB
+                <input  type="radio" name="net"  > 51-100MB
+                <input  type="radio" name="net"  > 101-150MB
+                <input  type="radio" name="net"  > 151-200MB
             </div>
-            <div>
-                <label for="subscription">Subscription Duration</label><br>
-                <input type="date"  name="date">
-                <input type="month"  name="month">
-                <label for="to">To</label>
-                <input type="date"  name="date">
-                <input type="month"  name="month">
+            <div class="form-fields">
+                <div class="title">
+                    <label  for="subscription">Subscription Duration</label>
+                </div>
+                <input  type="date"  name="date">
+                <input  type="month"  name="month">
+                <label  for="to">To</label>
+                <input  type="date"  name="date">
+                <input  type="month"  name="month">
             </div>
-            <div>
-                <input type="reset"  value="reset">
-                <input type="submit"  value="submit">
+            <div class="form-fields">
+                <input class="btn" type="reset"  value="reset">
+                <input class="btn" type="submit"  value="submit">
             </div>
         </form>
     </body>
