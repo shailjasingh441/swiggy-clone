@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .parent{
+            height: 200vh;
+            background-color: yellow;
+            color: black;
+            padding: 30px;
+        }
+        .child{
+            padding: 30px;
+        }
+        .child-one{
+            background-color: red;
+        }
+        .child-two{
+            background-color: green;
+        }
+        .child-three{
+            background-color: cyan;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>CSS Positions</h1>
+        <ol>
+            <li>Static:The original or default position of an element.</li>
+            <li>Relative: Element is positioned relative to its normal/original position. Same as static positioning just that we can move an element by adding offset values..Element stays in normal document form. </li>
+            <li>Absolute: Element is positioned relative to its parent. if parent is not present  then element is positioned relative to the main document.Element is removed from the normal document flow which means that no space is created for that element.</li>
+            <li></li>
+        </ol>
+        <div class="parent">
+                parent
+                <div class="child child-one">One</div>
+                <div class="child child-two">Two</div>
+                <div class="child child-three">Three</div>
+        </div>
+    </div>
+</body>
+</html>

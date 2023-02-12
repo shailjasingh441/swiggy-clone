@@ -1,0 +1,31 @@
+.para{
+    color: aqua;
+    color: azure;
+}
+/* universal selector-0*/
+*{
+    color:red;
+}
+
+
+/* pseudo-class selector-10*/
+:hover{
+    color:aqua;
+}
+/* attribute selector-10*/
+a[href="#"]{
+    color:blue;
+}
+/* tag selector-1*/
+p{
+    color: brown;
+}
+/* pseudo-element selector-1*/
+p::first-line{
+    color:chartreuse;
+}
+/* id selector-100*/
+#para-id{
+    color: blueviolet!important;
+}
+

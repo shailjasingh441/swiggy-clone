@@ -1,0 +1,16 @@
+table,td,th{
+    border: 1px solid black;
+    border-collapse: separate;
+    border-style: dotted;
+    padding: 10px 5px;
+    text-align: start;
+}
+th{
+    background-color:aqua;
+}
+table{
+    width: 100%;
+}
+tr:nth-child(even){
+    background-color: blue;
+}
